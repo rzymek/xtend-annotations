@@ -111,7 +111,7 @@ class ImmutableProcessor extends AbstractClassProcessor {
 		]
 		cls.addMethod("toString") [
 			returnType = string
-			body = ['''return new org.eclipse.xtext.xbase.lib.util.ToStringHelper().toString(this);''']
+			body = ['''return "«cls.simpleName»{"+«cls.dataFields.join('+", "+')[simpleName]»+"}";''']
 		]
 	}
 
