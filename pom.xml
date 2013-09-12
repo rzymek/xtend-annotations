@@ -59,7 +59,7 @@
 	</organization>
 
 	<properties>
-		<xtend.version>2.4.2</xtend.version>
+		<xtend.version>2.4.3</xtend.version>
 		<jnario.version>0.5.0</jnario.version>
 	</properties>
 
@@ -108,5 +108,6 @@
 		<module>swing</module>
 		<module>examples</module>
 		<module>querydsl</module>
+		<module>typescript</module>
 	</modules>
 </project>
